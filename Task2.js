@@ -1,33 +1,31 @@
-// Arithmetic Operators (+, -, *, /, %)
-let a = 10;
-let b = 3;
+    let a = 10;
+    let b = 3;
 
-let sum = a + b;         // Addition
-let difference = a - b;  // Subtraction
-let product = a * b;     // Multiplication
-let quotient = a / b;    // Division
-let remainder = a % b;   // Modulus
+    let sum = a + b;         
+    let difference = a - b;  
+    let product = a * b;     
+    let quotient = a / b;    
+    let remainder = a % b;   
 
-console.log("Sum: " + sum);
-console.log("Difference: " + difference);
-console.log("Product: " + product);
-console.log("Quotient: " + quotient);
-console.log("Remainder: " + remainder);
+    document.write("Sum: " + sum + "<br>");
+    document.write("Difference: " + difference + "<br>");
+    document.write("Product: " + product + "<br>");
+    document.write("Quotient: " + quotient + "<br>");
+    document.write("Remainder: " + remainder + "<br>");
 
-// Assignment Operators (=, +=, -=, *=, /=)
-let x = 5;
-x += 2;   // x = x + 2 → x = 7
-x *= 3;   // x = x * 3 → x = 21
+    let x = 5;
+    x += 2;   
+    x *= 3;   
 
-console.log("Value of x : " + x);
+    document.write("Value of x: " + x + "<br>");
 
-// Comparison Operators (==, ===, !=, !==, >, <, >=, <=)
-let y = 10;
-let z = '10';
+    let y = 10;
+    let z = '10';
 
-console.log("y == z: " + (y == z));   // true 
-console.log("y === z: " + (y === z)); // false 
-console.log("y != z: " + (y != z));   // false
-console.log("y !== z: " + (y !== z)); // true
-console.log("y > 5: " + (y > 5));     // true
-console.log("y <= 10: " + (y <= 10)); // true
+    document.write("y == z: " + (y == z) + "<br>");
+    document.write("y === z: " + (y === z) + "<br>");
+    document.write("y != z: " + (y != z) + "<br>");
+    document.write("y !== z: " + (y !== z) + "<br>");
+    document.write("y > 5: " + (y > 5) + "<br>");
+    document.write("y <= 10: " + (y <= 10) + "<br>");
+  
